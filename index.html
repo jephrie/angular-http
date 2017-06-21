@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+		<script type="text/javascript" src="app/main.js"></script>
+	</head>
+	<body>
+	<div ng-app="http" ng-controller="httpController">
+		<button ng-click="asyncRequest()">Make request!</button>
+		<p ng-bind="result"></p>
+	</div>	
+	</body>
+</html>
